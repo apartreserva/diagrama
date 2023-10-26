@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ESTABELECIMENTO</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>ESTABELECIMENTO</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLClass"></span>
+          UMLClass
+        </span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>APART</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='b4a9956238f8b2fc5925c5ed006dd0df.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='5da1804988b8776a3875c2be305da2c8.html'><span class='node-icon staruml-icon icon-UMLClass'></span>ESTABELECIMENTO</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Classe utilizada para representar o estabelecimento associado.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+      <section>
+        <h3>Attributes</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="c5159866e57add8ea6dea47a75f0caea.html">IdEstabelecimento</a></td>
+            <td>INT </td>
+            <td><p>Id da tabela de estabelecimento.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="957af6735d07eb876ec97e64b0df217c.html">idEndereco</a></td>
+            <td>INT </td>
+            <td><p>Chave de associação ao endereço.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="4b3e0c89f8fbd8d7fa30619a216c866c.html">idMatriz</a></td>
+            <td>INT </td>
+            <td><p>Chave de associação à um estabelecimento matriz.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="8e71d6c8126928799d65046688ddd777.html">cnpj</a></td>
+            <td>STRING </td>
+            <td><p>Inscrição de CNPJ do estabelecimento.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="e6453ac12f55e6c72b3790376d0a2ed8.html">exclusao</a></td>
+            <td>DATETIME </td>
+            <td><p>Data da exclusão lógica do estabelecimento.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="8ac43964f5191c854219683ac8f8ec4f.html">inclusao</a></td>
+            <td>DATETIME </td>
+            <td><p>Data de inclusão do registro.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="0fbb934e5b6ad2431673e1db9c2a1ed8.html">nome</a></td>
+            <td>STRING </td>
+            <td><p>Nome do estabelecimento.</p></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Operations -->
+
+      
+      <section>
+        <h3>Operations</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="a84ad064f0d2324fd2341afccbbd0c5e.html">buscar()</a></td>
+            <td><p>Método de busca do estabelecimento.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="b5eaea23186bae8ce87b5012f09da0b2.html">adicionar()</a></td>
+            <td><p>Método de adição de registro.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="e5c4e96840ef79675cdcd65358ccd119.html">editar()</a></td>
+            <td><p>Método de alteração dos dados do estabelecimento.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="dec9bad5c304f7ff8babebac3b940864.html">listar()</a></td>
+            <td><p>Método de listagem dos estabelecimentos.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="24895d02dc4aa11e742c25ab235696e7.html">remover()</a></td>
+            <td><p>Método de remoção do estabelecimento</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="21b9c5898f7320d9ca01b85fe923ac66.html">servicos()</a></td>
+            <td><p>Método de listagem dos serviços fornecidos pelo estabelecimento.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="d1a862a88c68ba30fbaea9e58624c9dc.html">validar()</a></td>
+            <td><p>Método de validação dos campos.</p></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>ESTABELECIMENTO</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Dependants</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='1359132a422152b5492716a6507ef198.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CARDAPIO</a></li>
+        
+        <li><a href='d97b6161562ff5c301d55e233e681368.html'><span class='node-icon staruml-icon icon-UMLClass'></span>RESERVA</a></li>
+        
+        <li><a href='0d4292224128a69590ddd54c7fa21249.html'><span class='node-icon staruml-icon icon-UMLClass'></span>PEDIDO</a></li>
+        
+        <li><a href='adbc21002ec0c9bc83fe1b7f83b6f59e.html'><span class='node-icon staruml-icon icon-UMLClass'></span>RESPONSAVEL</a></li>
+        
+        <li><a href='a21c053e00b7d29f8258794e086b3a78.html'><span class='node-icon staruml-icon icon-UMLClass'></span>ORDEM_SERVICO</a></li>
+        
+    </ul>
+</section>
+
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='fd3d95b80e9703e55ad2d7d8929eb2bd.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(ENDEREÇO—ESTABELECIMENTO)</a></li>
+        
+        <li><a href='08c60278e5d4da4896aea962f111b820.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(SERVICOS—ESTABELECIMENTO)</a></li>
+        
+        <li><a href='9351305139ea6ceea32386fa5263fb8e.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(CARDAPIO→ESTABELECIMENTO)</a></li>
+        
+        <li><a href='3c04221682fababbb8d9a72803cc0429.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(RESERVA→ESTABELECIMENTO)</a></li>
+        
+        <li><a href='840c839a8346844782073b7e123fbe32.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(PEDIDO→ESTABELECIMENTO)</a></li>
+        
+        <li><a href='c37aa67f9819d1ff926df32d4760c932.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(RESPONSAVEL→ESTABELECIMENTO)</a></li>
+        
+        <li><a href='2f8bffe2bb4c647f1bbaf515bfb53785.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(ORDEM_SERVICO→ESTABELECIMENTO)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+
+
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PEDIDO</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/icon-font/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
+
+  </head>
+  <body>
+    <div>
+
+      <!-- Name Title -->
+
+      <h1>PEDIDO</h1>
+
+      <!-- Type and Stereotype -->
+
+      <section style="margin-top: .5em;">
+        <span class="alert alert-info">
+          <span class="node-icon staruml-icon icon-UMLClass"></span>
+          UMLClass
+        </span>
+        
+          <span style="margin-left: 10px" class="alert alert-info">«»</span>
+        
+      </section>
+
+      <!-- Path -->
+
+      <section style="margin-top: 10px">
+        
+        
+        
+          
+          <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>APART</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='b4a9956238f8b2fc5925c5ed006dd0df.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Modelo</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='0d4292224128a69590ddd54c7fa21249.html'><span class='node-icon staruml-icon icon-UMLClass'></span>PEDIDO</a></span>
+        
+      </section>
+
+      <!-- Diagram -->
+
+      
+
+      <!-- Description -->
+
+      
+      <section>
+        <h3>Description</h3>
+        <div>
+          
+            <p>Classe de representação dos pedidos realizados pelos consumidores.</p>
+          
+        </div>
+      </section>
+      
+
+      <!-- Specification -->
+
+      
+
+      <!-- Directed Relationship -->
+
+      
+
+      <!-- Undirected Relationship -->
+
+      
+
+      <!-- Classifier -->
+
+      
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+
+        
+        
+
+      
+
+      <!-- Interface -->
+
+      
+
+      <!-- Component -->
+
+      
+
+      <!-- Node -->
+
+      
+
+      <!-- Actor -->
+
+      
+
+      <!-- Use Case -->
+
+      
+
+      <!-- Template Parameters -->
+
+      
+
+      <!-- Literals -->
+
+      
+
+      <!-- Attributes -->
+
+      
+      <section>
+        <h3>Attributes</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="a27fd68564cf36a2cf007f9b314570ea.html">id</a></td>
+            <td>INT </td>
+            <td><p>Chave de identificação do pedido.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="0e6d02c91940b39e91a1e7d747414cf6.html">idEstabelecimento</a></td>
+            <td>INT </td>
+            <td><p>Id do estabelecimento associado.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="a783a3a88a25caaa428332d8196daa1d.html">idConsumidor</a></td>
+            <td>INT </td>
+            <td><p>Id do consumidor que realizou o pedido.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="8980aa03549117bec2a0cfee44c429cc.html">idEndereco</a></td>
+            <td>INT </td>
+            <td><p>id do endereço de entrega do pedido.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="a5eee84c3fb1a9ba54995c4b53d7a9d6.html">numero</a></td>
+            <td><span class='label label-info'>none</span> </td>
+            <td><p>Número da ordem do pedido.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="37ac171f9702f18fafed8bb7667057d4.html">inclusao</a></td>
+            <td>DATETIME </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="999ca6b2ae9276203b31624051a88fbf.html">previsao</a></td>
+            <td>DATETIME </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="e8a7f7e1377a1bb69f07f3535fe0d338.html">entrega</a></td>
+            <td>DATETIME </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="869c38538c092dfe6d54d2851f40767e.html">itens</a></td>
+            <td>ARRAY </td>
+            <td><p>Array de itens que compõe o pedido.</p></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="23593c5f1b47c8feed522ff1ce09a05f.html">observacao</a></td>
+            <td>STRING </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="7ff909b1015bc59bbe5c512cbbe77e91.html">status</a></td>
+            <td><a href='80ff449817a5da4c9bba8834a0c73f5a.html'><span class='node-icon staruml-icon icon-UMLClass'></span>STATUS_PEDIDO</a> </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="b92d2bc747e0018eaabe8f732534e28a.html">subTotal</a></td>
+            <td>Double </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>private</td>
+            <td><a href="3093d104502d894b45964a16d92adbb5.html">total</a></td>
+            <td>Double </td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Operations -->
+
+      
+      <section>
+        <h3>Operations</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Visibility</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="246e59334883e8abeb3246142e0d95f2.html">adicionar()</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="3343ece5689f521a777c972fa6cf373e.html">buscar()</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="02b7691ad13ad5fc3bd89071e694aedf.html">editar()</a></td>
+            <td><p>Regra para a edição:
+- O pedido não pode estar no status de (Em Preparo, Cancelado, Concluído)
+- O pedido já estiver sido pago.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="542ad38c380158dab50822922c895a60.html">listar()</a></td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="132a9fee4d899a0240b634e57c641f8e.html">pagar()</a></td>
+            <td><p>Método de pagamento do pedido.</p></td>
+          </tr>
+          
+          <tr>
+            <td>public</td>
+            <td><a href="a315338fc505a5a875970320f8c69da9.html">status()</a></td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
+      
+
+      <!-- Receptions -->
+
+      
+
+      <!-- Extension Points -->
+
+      
+
+      <!-- Parameters -->
+
+      
+
+      <!-- Diagrams -->
+
+      
+      
+
+      <!-- Behavior -->
+
+      
+
+      <!-- Action -->
+
+      
+
+      <!-- Interaction -->
+
+      
+
+      <!-- CombinedFragment -->
+
+      
+
+      <!-- Activity -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State Machine -->
+
+      
+
+      <!-- State -->
+
+      
+
+      <!-- Vertex -->
+
+      
+
+      <!-- Transition -->
+
+      
+
+      <!-- Data Model (ERD) -->
+
+      
+
+      <!-- Columns (ERD) -->
+
+      
+
+      <!-- Related Entities (ERD) -->
+
+      
+
+      <!-- Data Flows (DFD) -->
+
+      
+
+      <!-- Flows (Flowchart) -->
+
+      
+
+      <!-- Properties -->
+
+      <section>
+        <h3>Properties</h3>
+        
+        <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>PEDIDO</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>stereotype</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+</table>                
+
+      </section>
+
+      <!-- Tags -->
+
+      
+
+      <!-- Constraints, Dependencies, Dependants -->
+
+      
+        
+        
+
+
+        
+        
+<section class="element-list">
+    <h3>Dependencies</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='fc1b27eb1b8742f8c761e8f944aac260.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CONSUMIDOR</a></li>
+        
+        <li><a href='5da1804988b8776a3875c2be305da2c8.html'><span class='node-icon staruml-icon icon-UMLClass'></span>ESTABELECIMENTO</a></li>
+        
+        <li><a href='a21c053e00b7d29f8258794e086b3a78.html'><span class='node-icon staruml-icon icon-UMLClass'></span>ORDEM_SERVICO</a></li>
+        
+    </ul>
+</section>
+
+
+
+        
+        
+<section class="element-list">
+    <h3>Dependants</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='fc1b27eb1b8742f8c761e8f944aac260.html'><span class='node-icon staruml-icon icon-UMLClass'></span>CONSUMIDOR</a></li>
+        
+        <li><a href='c30aa204246b1f5456f8f777df267052.html'><span class='node-icon staruml-icon icon-UMLClass'></span>HISTORICO_PEDIDO</a></li>
+        
+    </ul>
+</section>
+
+
+      
+
+      <!-- Relationships -->
+
+      
+      
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='1ec7f45e06479da0bed2ac1149759332.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(PEDIDO→CONSUMIDOR)</a></li>
+        
+        <li><a href='840c839a8346844782073b7e123fbe32.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(PEDIDO→ESTABELECIMENTO)</a></li>
+        
+        <li><a href='1e72061cbd576cccbb5ff48c5ca9a486.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(PEDIDO→ORDEM_SERVICO)</a></li>
+        
+        <li><a href='98c35374daf39c21658c3eb5a1b49957.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(CONSUMIDOR→PEDIDO)</a></li>
+        
+        <li><a href='2a9a4f26158238944a60a95856ee38a7.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(STATUS_PEDIDO—PEDIDO)</a></li>
+        
+        <li><a href='3efed3c43b4a219a802bbb557c499632.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(HISTORICO_PEDIDO→PEDIDO)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Owned Elements -->
+
+      
+      
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='1ec7f45e06479da0bed2ac1149759332.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(PEDIDO→CONSUMIDOR)</a></li>
+        
+        <li><a href='840c839a8346844782073b7e123fbe32.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(PEDIDO→ESTABELECIMENTO)</a></li>
+        
+        <li><a href='1e72061cbd576cccbb5ff48c5ca9a486.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(PEDIDO→ORDEM_SERVICO)</a></li>
+        
+    </ul>
+</section>
+
+
+
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
+    </div>
+  </body>
+</html>
